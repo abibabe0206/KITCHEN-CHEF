@@ -1,0 +1,128 @@
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+}
+
+#boxes .window {
+  background-image: url("../img/popupbackground.PNG");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 750px;
+  height: 300px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#boxes #dialog {
+  width: 1150px;
+  height: 600px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+
+#popupfoot {
+  font-size: 16pt;
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  left: 370px;
+}
+
+.logo {
+	width:95px; 
+	height:80px;
+ 	border: solid 2px blue;
+ 	border-radius: 20px;
+ 	position: absolute;
+    top: 17px;
+    left: 18px;
+}
+
+.tf {
+	background: #f3cfcf;
+	height: 9em;
+	border-radius: 25px;
+	padding-bottom: 10px;
+	
+}
+
+.ffr {
+	background: #f3cfcf;
+	border: 2px solid lightblue; 
+	height: 8em;
+	border-radius: 25px;
+	padding-bottom: 10px;
+	
+}
+
+
+.bike {
+	padding: 0.5px;
+	display: flex;
+	justify-content: center;
+}
+.bike ul {
+	font-weight: bold;
+    border-radius: 25px 28px 30px;
+  	padding: 5px;
+  	margin: 5px;
+  	height: 5em;
+  	list-style-type: none;
+}
+
+.bike ul li {
+	float: left;
+	padding-right: 0.7em;
+	margin: 0 0 3px 0;
+	align: middle;
+	
+}
+.devi {
+	width:40px; 
+	height:40px;
+	
+}
+
+.bike span {
+	 position: relative;
+    bottom: 25px;
+}
+
+.fb {
+	padding: 0.5px;
+	display: flex;
+	justify-content: center;
+}
+.fb ul {
+	font-weight: bold;
+    border-radius: 25px 28px 30px;
+  	padding: 5px;
+  	margin: 5px;
+  	height: 5em;
+  	list-style-type: none;
+}
+
+.fb ul li {
+	float: left;
+	padding-right: 0.7em;
+	margin: 0 0 3px 0;
+	align: middle;
+	
+}
+
+.fb span {
+	 position: relative;
+    bottom: 25px;
+}
+
+	

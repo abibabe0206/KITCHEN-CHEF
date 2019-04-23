@@ -1,0 +1,107 @@
+
+.container {
+    background: gray;
+    border-radius: 15px 50px 30px;
+  	height: 40.09em;  
+  	background-size: cover;
+     
+}
+.menuBar {
+	padding: .5px;
+}
+.menuBar ul {
+	font-weight: bold;
+    border-radius: 25px 28px 30px;
+  	background: turquoise;
+  	padding: 5px;
+  	margin: 5px;
+  	height: 5em;
+  	list-style-type: none;
+}
+
+.menuBar ul li {
+	float: left;
+}
+
+
+.menuBar ul li a img {
+	width:95px; 
+	height:80px;
+ 	border: solid 2px blue;
+ 	border-radius: 20px;
+ 	position: absolute;
+    top: 17px;
+    left: 18px;
+}
+
+.menuBar ul li a {
+	color: darkblue;
+    padding: 25px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:  .8em;
+    display: block;
+   
+
+}
+
+
+
+.body {
+	background-image: url("../img/bg1.jpg");
+	background-size: cover;
+	height: 34em;
+	border-radius: 25px 28px 30px; 
+}
+
+.movingPics {
+   width: 530px;
+   height: 360px;
+	transform: rotate(130deg) translate(160px, 190px) rotate(-130deg);
+ 	border: 10px solid #13F40F; 
+ 	border-radius: 0px 200px 0px 100px;
+}
+
+.tdr {
+	background: #f3cfcf;
+	border: 2px solid; 
+}
+	
+.tffr {
+	background: #f3cfcf;
+	border: 2px solid; 
+	height: 7.5em;
+	border-radius: 25px;
+	padding-bottom: 5px;
+	
+}
+									
+
+
+.foodBar {
+	padding: .5px;
+}
+.foodBar ul {
+	font-weight: bold;
+    border-radius: 25px 28px 30px;
+  	padding: 5px;
+  	margin: 5px;
+  	height: 5em;
+  	list-style-type: none;
+}
+
+.foodBar ul li {
+	float: left;
+	padding-right: 0.7em;
+	margin: 0 0 3px 0;
+	
+}
+
+
+.meat, .cake, .mixfriut, .drink {
+	width:95px; 
+	height:80px;
+ 	border: solid 2px blue;
+ 	border-radius: 20px;
+ 	
+}
